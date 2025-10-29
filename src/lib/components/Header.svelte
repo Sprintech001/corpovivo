@@ -1,7 +1,7 @@
 <script>
     import { Hamburger } from "svelte-hamburgers";
     import MenuHamburguer from "./MenuHamburguer.svelte";
-    import logo from "$img/img/seuestilo.svg"
+    import logo from "$img/logos/logo-completa.svg";
     import cartIcon from "$img/cart.svg"
     import { IconSearch } from "@tabler/icons-svelte";
     import { cart as cartStore } from '../stores/cartStore.js';
@@ -149,8 +149,8 @@
     }
 
     img {
-        margin-top: 1.5rem;
-        width: 180px;
+        margin-top: 0;
+        width: 105px;
     }
 
     #cart {

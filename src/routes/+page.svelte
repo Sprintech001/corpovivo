@@ -24,7 +24,7 @@
    
 
     // import utils
-    import logo from "$img/logo.png";
+    import logo from "$img/logos/logo-corpovivo.svg";
 
     let showCart = false;
     function openCart() {
